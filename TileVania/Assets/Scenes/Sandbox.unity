@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 1225623840}
   - component: {fileID: 1225623839}
   - component: {fileID: 1225623838}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3242,6 +3242,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8513622488199107048, guid: 9d4d711382183044e9553fd983719be3,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6094920475075195360, guid: 9d4d711382183044e9553fd983719be3,
         type: 3}
       propertyPath: m_Name
@@ -3250,7 +3255,7 @@ PrefabInstance:
     - target: {fileID: 6094920475075195361, guid: 9d4d711382183044e9553fd983719be3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.8
+      value: 1.43
       objectReference: {fileID: 0}
     - target: {fileID: 6094920475075195361, guid: 9d4d711382183044e9553fd983719be3,
         type: 3}
@@ -3322,3 +3327,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37c058f7fa815004fafef990ea509fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runSpeed: 5
+  jumpSpeed: 28
